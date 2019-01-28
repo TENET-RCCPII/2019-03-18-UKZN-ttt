@@ -8,7 +8,7 @@ country: "za"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "-29.8674172,30.9785332"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "18 - 20 March 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 16:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "9:00 am - 17:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-03-18      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-03-20        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Malvika Sharan", "Katrin Tirok", "Saymore Chifamba", "Samar Elsheikh"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -19,6 +19,18 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
+
+
+<div>
+<table>
+
+	<tr>
+	<td align="center" style="background-color:white" style="width:30%"><a href="https://www.ukzn.ac.za"><img style="display:block;" src="./fig/BigDataInformatics.png" alt="UKZN Big Data and Informatics"></a></td>
+	<td align="center" style="background-color:white" style="width:30%"><a href="https://tenet-rccpii.github.io/rccpii-2018/"><img style="display:block;" src="./fig/dhet_logo.png" alt="DHET RCCP II"></a></td>
+	</tr>
+</table>
+
+</div>
 
 <!--
   HEADER
@@ -67,7 +79,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   committed to becoming one and to improving your teaching techniques.
 </p>
 
-<p> 
+<p>
   The workshop is a mix of lectures and hands-on lessons where you
   practice giving a short lesson using approaches learned and
   implement some of the teaching techniques which we will discuss.
@@ -79,23 +91,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 <p>
   <a href="{{ site.swc_site }}">Software Carpentry</a>,
-  <a href="{{ site.dc_site }}">Data Carpentry</a>, and 
+  <a href="{{ site.dc_site }}">Data Carpentry</a>, and
   <a href="{{ site.lc_site }}">Library Carpentry</a>'s mission is to
   help scientists, researchers, and librarians get more research done in less time
   and with less pain by teaching them basic lab skills for scientific
   computing.  This hands-on two-day workshop covers the basics of
   educational psychology and instructional design, and looks at how to
   use these ideas in both intensive workshops and regular classes.
-</p>
-<p>
-  The workshop is a mix of lectures and hands-on lessons where you
-  practice giving a short lesson using approaches learned and
-  implement some of the teaching techniques which we will discuss.
-  This is training for teaching, not technical training; you do not
-  need any particular technical background, and we will not be
-  teaching that. This workshop is based on the constantly revised and
-  updated
- <a href="{{ site.training_site }}">curriculum</a>.
 </p>
 
 <!--
@@ -200,7 +202,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <li><a href="{{ site.dc_site }}/lessons">Data Carpentry Lessons</a></li>
   <li><a href="{{ site.lc_site }}/lessons">Library Carpentry Lessons</a></li>
   </ul>
-  
+
 
 <hr/>
 
@@ -219,14 +221,55 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 
 
-<h2 id="materials" name="materials">Training Materials and Schedule</h2>
-
-<p>
-  Please see <a href="{{ site.training_site }}">this site</a> for course material and tentative schedule.
-</p>
-
 
 <hr/>
+<h2 id="schedule" name="schedule">Schedule</h2>
+
+<div class="row">
+  <div class="col-md-4">
+    <h3>Day 1</h3>
+    <table class="table table-striped">
+    <tr> <td>09:00</td> <td>Welcome </td> </tr>
+    <tr> <td>09:30</td> <td>How Learning Works </td> </tr>
+    <tr> <td>10:30</td> <td>Refreshment Break</td> </tr>
+    <tr> <td>11:00</td> <td>How Learning Works/ Building Teaching Skill </td> </tr>
+    <tr> <td>12:30</td> <td>Lunch </td> </tr>
+    <tr> <td>13:30</td> <td>Creating a Positive Learning Environment </td> </tr>
+    <tr> <td>15:15</td> <td>Afternoon Break </td> </tr>
+    <tr> <td>15:35</td> <td>Building Teaching Skill </td> </tr>
+    <tr> <td>16:45</td> <td>Wrap-Up and Homework for Tomorrow </td> </tr>
+    <tr> <td>17:00</td> <td>Finish </td> </tr>
+    </table>
+  </div>
+  <div class="col-md-4">
+    <h3>Day 2</h3>
+    <table class="table table-striped">
+    <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
+    <tr> <td>09:10</td> <td>Building Teaching Skill </td> </tr>
+    <tr> <td>10:30</td> <td>Refreshment Break </td> </tr>
+    <tr> <td>11:00</td> <td>Building Teaching Skill </td> </tr>
+    <tr> <td>12:30</td> <td>Lunch </td> </tr>
+    <tr> <td>13:30</td> <td>The Carpentries</td> </tr>
+    <tr> <td>15:15</td> <td>Afternoon Break </td> </tr>
+    <tr> <td>15:30</td> <td>The Carpentries </td> </tr>
+    <tr> <td>16:30</td> <td>Afternoon Wrap-Up </td> </tr>
+    <tr> <td>17:00</td> <td>Finish </td> </tr>
+    </table>
+  </div>
+  <div class="col-md-4">
+    <h3>Day 3</h3>
+    <table class="table table-striped">
+    <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
+    <tr> <td>09:15</td> <td>Mentoring within the Carpentries </td> </tr>
+    <tr> <td>09:45</td> <td>Lesson Onboarding Sessions </td> </tr>
+    <tr> <td>10:30</td> <td>Refreshment Break </td> </tr>
+    <tr> <td>11:00</td> <td>Workshop Planning at UKZN </td> </tr>
+    <tr> <td>12:30</td> <td>Lunch </td> </tr>
+    <tr> <td>13:30</td> <td>Finish</td> </tr>
+    </table>
+  </div>
+</div>
+
 
 <!--
 
@@ -235,7 +278,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <h3>Day 1</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td> <td>Welcome </td> </tr>
-      <tr> <td>09:15</td> <td>How Learning Works: The Importance of Practice </td> </tr>
+      <tr> <td>09:30</td> <td>How Learning Works: The Importance of Practice </td> </tr>
       <tr> <td>10:20</td> <td>How Learning Works: Expertise and Instruction </td> </tr>
       <tr> <td>11:10</td> <td>Morning Coffee </td> </tr>
       <tr> <td>11:25</td> <td>How Learning Works: Working Memory and Cognitive Load </td> </tr>
@@ -285,7 +328,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   e.g., '2015-06-10-esu'.
 -->
 {% if page.etherpad %}
-<hr/>
+
 
 <p id="etherpad">
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
@@ -293,3 +336,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
+
+<hr/>
+<h2 id="materials" name="materials">Training Materials and detailed schedule</h2>
+
+<p>
+  Please see <a href="{{ site.training_site }}">this site</a> for course material.
+</p>
+
+<hr/>
