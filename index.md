@@ -26,7 +26,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 	<tr>
 	<td align="center" style="background-color:white" style="width:30%"><a href="https://www.ukzn.ac.za"><img style="display:block;" src="./fig/BigDataInformatics.png" alt="UKZN Big Data and Informatics"></a></td>
-	<td align="center" style="background-color:white" style="width:30%"><a href="https://tenet-rccpii.github.io/rccpii-2018/"><img style="display:block;" src="./fig/dhet_logo.png" alt="DHET RCCP II"></a></td>
+	<td align="center" style="background-color:white" style="width:50%"><a href="https://tenet-rccpii.github.io/rccpii-2018/"><img style="display:block;" src="./fig/rccpii_logo.png" alt="RCCP II"></a></td>
 	</tr>
 </table>
 
