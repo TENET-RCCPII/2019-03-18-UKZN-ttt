@@ -8,7 +8,7 @@ country: "za"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "-29.8674172,30.9785332"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "18 - 20 March 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 17:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "8:30 am - 17:00 pm (13:00 pm)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-03-18      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-03-20        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Malvika Sharan", "Katrin Tirok", "Saymore Chifamba", "Samar Elsheikh"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -145,7 +145,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
-  accessible to everybody.
+  accessible to everybody. If we can help making learning easier for
+  you please get in touch (using contact details below).
+	</p>
+<!--
   The workshop organisers have checked that:
 </p>
 <ul>
@@ -157,9 +160,21 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   large-print handouts are available if needed by notifying the
   organizers in advance.  If we can help making learning easier for
   you (e.g. sign-language interpreters, lactation facilities) please
-  please get in touch (using contact details below) and we will
+  get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+-->
+
+
+<p id = "applications">
+<strong>Applications:</strong> Please register your application by completing the form available at <a href="https://goo.gl/forms/ys7XkRc6u1OHGV6H2">https://goo.gl/forms/ys7XkRc6u1OHGV6H2</a>.
+Please note the two-step application process - first register your application by completing the Google Form linked above, then complete the full application available at <a href="https://amy.software-carpentry.org/forms/request_training/">https://amy.software-carpentry.org/forms/request_training/</a> using the group name "UKZN2019".
+</p>
+
+<p id = "cost">
+<strong>Cost:</strong> The workshop is free of charge. Workshop costs are sponsored by UKZN's Capacity Development Programme and the DHET's Rural Campus Connectivity Project II. Participants coming from rural institutions in KwaZulu-Natal or the Eastern Cape can apply for travel sponsorship.
+</p>
+
 
 <p id="contact">
   <strong>Contact</strong>:
@@ -229,43 +244,43 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <div class="col-md-4">
     <h3>Day 1</h3>
     <table class="table table-striped">
-    <tr> <td>09:00</td> <td>Welcome </td> </tr>
-    <tr> <td>09:30</td> <td>How Learning Works </td> </tr>
+    <tr> <td>08:30</td> <td>Welcome </td> </tr>
+    <tr> <td>09:00</td> <td>How Learning Works </td> </tr>
     <tr> <td>10:30</td> <td>Refreshment Break</td> </tr>
     <tr> <td>11:00</td> <td>How Learning Works/ Building Teaching Skill </td> </tr>
     <tr> <td>12:30</td> <td>Lunch </td> </tr>
     <tr> <td>13:30</td> <td>Creating a Positive Learning Environment </td> </tr>
     <tr> <td>15:15</td> <td>Afternoon Break </td> </tr>
     <tr> <td>15:35</td> <td>Building Teaching Skill </td> </tr>
-    <tr> <td>16:45</td> <td>Wrap-Up and Homework for Tomorrow </td> </tr>
+    <tr> <td>16:35</td> <td>Wrap-Up and Homework for Tomorrow </td> </tr>
     <tr> <td>17:00</td> <td>Finish </td> </tr>
     </table>
   </div>
   <div class="col-md-4">
     <h3>Day 2</h3>
     <table class="table table-striped">
-    <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
-    <tr> <td>09:10</td> <td>Building Teaching Skill </td> </tr>
+    <tr> <td>08:30</td> <td>Welcome Back </td> </tr>
+    <tr> <td>08:45</td> <td>Building Teaching Skill </td> </tr>
     <tr> <td>10:30</td> <td>Refreshment Break </td> </tr>
     <tr> <td>11:00</td> <td>Building Teaching Skill </td> </tr>
     <tr> <td>12:30</td> <td>Lunch </td> </tr>
     <tr> <td>13:30</td> <td>The Carpentries</td> </tr>
     <tr> <td>15:15</td> <td>Afternoon Break </td> </tr>
-    <tr> <td>15:30</td> <td>The Carpentries </td> </tr>
-    <tr> <td>16:30</td> <td>Afternoon Wrap-Up </td> </tr>
+    <tr> <td>15:35</td> <td>The Carpentries </td> </tr>
+    <tr> <td>16:35</td> <td>Afternoon Wrap-Up </td> </tr>
     <tr> <td>17:00</td> <td>Finish </td> </tr>
     </table>
   </div>
   <div class="col-md-4">
     <h3>Day 3</h3>
     <table class="table table-striped">
-    <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
-    <tr> <td>09:15</td> <td>Mentoring within the Carpentries </td> </tr>
+    <tr> <td>08:30</td> <td>Welcome Back </td> </tr>
+    <tr> <td>08:45</td> <td>Mentoring within the Carpentries </td> </tr>
     <tr> <td>09:45</td> <td>Lesson Onboarding Sessions </td> </tr>
     <tr> <td>10:30</td> <td>Refreshment Break </td> </tr>
-    <tr> <td>11:00</td> <td>Workshop Planning at UKZN </td> </tr>
+    <tr> <td>11:00</td> <td>Workshop Planning at your university </td> </tr>
     <tr> <td>12:30</td> <td>Lunch </td> </tr>
-    <tr> <td>13:30</td> <td>Finish</td> </tr>
+    <tr> <td>13:00</td> <td>Finish</td> </tr>
     </table>
   </div>
 </div>
