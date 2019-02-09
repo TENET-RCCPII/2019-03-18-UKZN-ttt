@@ -37,7 +37,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 	<h3 style="text-align:center;"><strong> Is this training for me?
 	</strong></h3>
 	<p><strong>
-		Join one of the following online information sessions for more information and questions:
+		Join one of the following online information sessions (<a href = "https://zoom.us/j/4183985961"> https://zoom.us/j/4183985961 </a>) for more information and questions:
 		<ul>
 			<li> Thursday, 14th February, 10:00 - 10:30 </li>
 			<li> Thursday, 14th February, 13:00 - 13:30 </li>
