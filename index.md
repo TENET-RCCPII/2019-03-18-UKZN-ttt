@@ -32,6 +32,42 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 </div>
 
+
+<div>
+	<h3 style="text-align:center;"><strong> Is this training for me?
+	</strong></h3>
+	<p><strong>
+		Join one of the following online information sessions for more information and questions:
+		<ul>
+			<li> Thursday, 14th February, 10:00 - 10:30 </li>
+			<li> Thursday, 14th February, 13:00 - 13:30 </li>
+			<li> Friday, 15th February, 12:00 - 12:30 </li>
+			</ul>
+	</strong></p>
+
+	<p><small>
+		<ul style="list-style-type:none;">
+		Please join the online session via Zoom:
+			<ul style="list-style-type:none;">
+				<a href = "https://zoom.us/j/4183985961"> https://zoom.us/j/4183985961 </a>
+
+				<li> One tap mobile </li>
+				<ul style="list-style-type:none;">
+					<li> +16465588656,,4183985961# US (New York) </li>
+					<li> +14086380968,,4183985961# US (San Jose) </li>
+				</ul>
+				<li> Dial by your location </li>
+				<ul style="list-style-type:none;">
+					<li>        +1 646 558 8656 US (New York) </li>
+					<li>        +1 408 638 0968 US (San Jose) </li>
+				</ul>
+				<li> Meeting ID: 418 398 5961 </li>
+				<li> Find your local number: <a href = "https://zoom.us/u/bVTnWtFws"> https://zoom.us/u/bVTnWtFws </a> </li>
+			</ul>
+		</ul>
+	</small></p>
+</div>
+
 <!--
   HEADER
 
