@@ -202,7 +202,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 -->
 
 
-<p id = "applications">
+<p id = "applications" style="color:red">
 <strong>Applications:</strong> Please register your application by completing the form available at <a href="https://goo.gl/forms/ys7XkRc6u1OHGV6H2">https://goo.gl/forms/ys7XkRc6u1OHGV6H2</a>.
 Please note the two-step application process - first register your application by completing the Google Form linked above, then complete the full application available at <a href="https://amy.software-carpentry.org/forms/request_training/">https://amy.software-carpentry.org/forms/request_training/</a> using the group name "UKZN2019".
 </p>
