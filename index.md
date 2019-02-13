@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
 carpentry: "dc"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "UKZN Big Data & Informatics / RCCPII"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Instructor Training - UKZN Big Data & Informatics / RCCPII"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "UKZN, Durban, Exact Venue TBC"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "za"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
@@ -20,17 +20,18 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
 
+<hr/>
 
-<div>
-<table>
-
-	<tr>
-	<td align="center" style="background-color:white" style="width:30%"><a href="https://www.ukzn.ac.za"><img style="display:block;" src="./fig/BigDataInformatics.png" alt="UKZN Big Data and Informatics"></a></td>
-	<td align="center" style="background-color:white" style="width:50%"><a href="https://tenet-rccpii.github.io/rccpii-2018/"><img style="display:block;" src="./fig/rccpii_logo.png" alt="RCCP II"></a></td>
-	</tr>
-</table>
-
+<div class="partner-logos" style = "text-align:center;">
+  <a href="https://www.ukzn.ac.za" title="Big Data and Informatics">
+    <img style="margin-right:50px" alt="Big Data and Informatics" src="./fig/BigDataInformatics.png" width="300"/>
+  </a>
+  <a href="https://tenet-rccpii.github.io/rccpii-2018/" title="RCCP II">
+    <img style="margin-right:50px" alt="RCCP II" src="./fig/rccpii_logo.png" width="150"/>
+  </a>
 </div>
+
+<hr/>
 
 <div>
 	<h4 style = "text-align:center; color:red;"><strong> Application deadline: 20th February 2019 </strong> </h4>
@@ -240,6 +241,7 @@ Please note the two-step application process - first register your application b
   {% endif %}
   for more information.
 </p>
+
 
 <hr/>
 
