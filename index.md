@@ -42,6 +42,7 @@ Please note the two-step application process - first register your application b
 </div>
 
 
+<!--
 <div>
 	<h3 style="text-align:center;"><strong> Is this training for me?
 	</strong></h3>
@@ -75,6 +76,7 @@ Please note the two-step application process - first register your application b
 		</ul>
 	</small></p>
 </div>
+-->
 
 <!--
   HEADER
